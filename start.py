@@ -43,7 +43,7 @@ def save_img():
 
 window = tk.Tk()
 window.title("spyMonk Image Modification")
-window.geometry(530x400+150+120)
+
 window.rowconfigure([0, 1, 2, 3], weight=1)
 window.columnconfigure([0, 1], weight=1)
 
