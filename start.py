@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import filedialog
 from PIL import Image, ImageTk
 import ascify
+import blockify
+import sketchify
 import numpy as np
 
 
@@ -23,7 +25,7 @@ def magic():
 def upload():
     global image
     global inp_filename
-    f_types = [('All Files', '*'), ('Jpg Files', '*.jpg'), ('Png Files', '*.png')]
+    f_types = [('All Files', '*'), ('Jpg Files', '*.jpg'), ('Png Files', '*.png'), ('Jpeg Files', '*.jpeg')]
     inp_filename = filedialog.askopenfilename(filetypes=f_types)
     image = ImageTk.PhotoImage(file=inp_filename)
     lbl_inp_img.configure(image=image)
@@ -37,6 +39,8 @@ def save_img():
         return
     f_img.save(out_filename)
 
+
+# TODO def inv_img
 
 window = tk.Tk()
 window.title("spyMonk Image Modification")
