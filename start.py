@@ -114,11 +114,11 @@ def save_img():
 
 window = tk.Tk()
 window.title("spyMonk ASCII Image Modification")
-window.geometry("1200x1084")
+# window.geometry("")
 window.rowconfigure([0, 1, 2, 3], weight=1)
 window.columnconfigure([0, 1], weight=1)
-
-lbl = tk.Label(master=window, text="Upload your Image 🖼", fg="Blue", font='Helvetica 32 bold', padx=200, pady=50)
+window.eval('tk::PlaceWindow . center')
+lbl = tk.Label(master=window, text="Upload your Image 🖼", fg="Blue", font="Bold")
 lbl.grid(row=0, column=0, sticky="nsew")
 
 lbl_inp_img = tk.Label(master=window)
