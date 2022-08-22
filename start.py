@@ -4,6 +4,7 @@ from PIL import Image, ImageTk
 import ascify
 import numpy as np
 
+
 def magic():
     global ascii_img
     global f_img
@@ -18,6 +19,7 @@ def magic():
     lbl_out_img.grid(row=2, column=1, sticky="nsew")
     btn_sav.grid(row=3, column=1, sticky="nsew")
 
+
 def upload():
     global image
     global inp_filename
@@ -25,7 +27,7 @@ def upload():
     inp_filename = filedialog.askopenfilename(filetypes=f_types)
     image = ImageTk.PhotoImage(file=inp_filename)
     lbl_inp_img.configure(image=image)
-    lbl_inp_img.grid(row=2,column=0, sticky="nsew")
+    lbl_inp_img.grid(row=2, column=0, sticky="nsew")
     btn_ask.grid(row=3, column=0, sticky="nsew")
 
 
@@ -36,25 +38,19 @@ def save_img():
     f_img.save(out_filename)
 
 
-## TO DO:
-# def inv_img():
-
-
-
 window = tk.Tk()
 window.title("spyMonk Image Modification")
-
 window.rowconfigure([0, 1, 2, 3], weight=1)
 window.columnconfigure([0, 1], weight=1)
-
+window.geometry("1024x710+230+70")
 lbl = tk.Label(master=window, text="Upload your Image", fg="RED")
-lbl.grid(row=0,column=0, sticky="nsew")
+lbl.grid(row=0, column=0, sticky="nsew")
 
 lbl_inp_img = tk.Label(master=window)
 lbl_out_img = tk.Label(master=window)
 
 btn_upload = tk.Button(master=window, text="Upload Image", command=upload)
-btn_upload.grid(row=1,column=0)
+btn_upload.grid(row=1, column=0)
 
 btn_ask = tk.Button(master=window, text="ASCIFY", command=magic)
 btn_sav = tk.Button(master=window, text="Save", command=save_img)
