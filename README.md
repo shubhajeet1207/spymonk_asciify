@@ -39,7 +39,7 @@ This will run the python script of GUI.
 <br>
 [SKETCH Art](https://github.com/shubhajeet1207/spymonk_asciify/blob/master/examples/output%20images/sketchify_testing_1.0.0.png)
 
-## Technologies USed 🛠
+## Technologies Used 🛠
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
