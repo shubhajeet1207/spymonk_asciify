@@ -114,7 +114,7 @@ def save_img():
 
 window = tk.Tk()
 window.title("spyMonk ASCII Image Modification")
-# window.geometry("")
+# window.configure(bg="grey")
 window.rowconfigure([0, 1, 2, 3], weight=1)
 window.columnconfigure([0, 1], weight=1)
 window.eval('tk::PlaceWindow . center')
