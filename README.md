@@ -61,3 +61,29 @@ This will run the python script of GUI.
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![tkinter](https://img.shields.io/badge/tkinter-3670A0?style=for-the-badge&logo=tkinter&logoColor=ffdd54)
+
+## Maintainer
+---
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/76960580?v=4" width="150px" alt="HacktoberFest'22" />
+      <br/>
+      Shubhajeet Pradhan
+      <br/>
+      <a href="https://www.linkedin.com/in/shubhajeet-pradhan-b7747a156/">LinkedIn</a>
+      <a href="https://github.com/shubhajeet1207">Github</a>
+    </td> 
+  </tr>
+</table>
+
+## License 
+[MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
+
+## Contributors
+<a href="https://github.com/shubhajeet1207/spymonk_asciify/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=shubhajeet1207/spymonk_asciify" />
+</a>
+
+---
+<div align='center'>Please give it a star if you enjoyed contributing to this repository ⭐</div>
