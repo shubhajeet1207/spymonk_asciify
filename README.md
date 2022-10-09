@@ -2,16 +2,33 @@
 
 # spyMonk Art Generator
 
-![img.png](img.png)
+![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
 
 </div>
+<p align='center'> <b>You are welcome to contribute to this project if you are new to open-source and are looking for your first contribution </b> </p>
+
+***
+
+## Contributing Guidelines 📝
+
+For contributing in this repository follow the guidelines mentioned in the [CONTRIBUTING](https://github.com/shubhajeet1207/Hackfest-22/blob/master/CONTRIBUTING-GUIDELINES.md) file, where I've provided you steps to make your contributions.
+
+Once the pull request is merged, you will find your awesome contribution card on our website.
+
+Upon merging your PR, you can find your names on this [website](https://hacktoberfest22.netlify.app)
+
+<div align="center">
+
+![img.png](img.png)
+</div>
+
 
 This is an image transformation tool which can converts your image into ASCII, BLOCKS, PENCIL SKETCH Arts.
 
 ## Installations 🚀
 For installing this tool follow the below commands:
 ```python
-virtual virtual-env-name
+virtualenv virtual-env-name
 ```
 By running this command a virtual environment will be created. To activate that:
 ```python
